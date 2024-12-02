@@ -9,7 +9,7 @@ convertNum.addEventListener('click', () => {
   const num2 = parseInt(guessNumber.value, 10)
 
   if (isNaN(num1)) {
-   const ctnValue.textContent = 'Enter the corresponded number'
+   const ctnValue,textContent = 'Enter the corresponded number'
     ctnValue.style.color = 'red'
   }
 
