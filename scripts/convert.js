@@ -8,7 +8,6 @@ const convertedValue = document.getElementById('convertedValue')
 convertNum.addEventListener('click', () => {
   const num1 = parseInt(inputNum.value, 10)
   const num2 = parseInt(guessNumber.value, 10)
-  
   if (isNaN(num1)) {
     convertedValue.textContent = 'Enter the corresponded number'
     convertedValue.style.color = 'red'
