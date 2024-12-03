@@ -1,0 +1,18 @@
+// Declear variables of all the element
+const inputNum = document.getElementById('input')
+const convertNum = document.getElementById('convert')
+const guessNumber = document.getElementById('guess')
+const convertedValue = document.getElementById('converted')
+
+convertNum.addEventListener('click', () => {
+  const num1 = parseInt(inputNum.value, 10)
+  const num2 = parseInt(guessNumber.value, 10)
+  if (isNaN(num1)) {
+    convertedValue.textContent = 'Enter the corresponded number'
+    convertedValue.style.color = 'red'
+  }
+
+  const clickNumber = num1.toString(num2)
+  convertedValue.textContent = `From ${num1} To ${num2} is ${clickNumber}`
+  convertedValue.style.color = 'blue'
+})
