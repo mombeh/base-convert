@@ -2,8 +2,7 @@
 const inputNum = document.getElementById('input')
 const convertNum = document.getElementById('convert')
 const guessNumber = document.getElementById('guess')
-const restartDisplay = document.getElementById('convertedValue')
-const convertedValue = document.getElementById('convertedValue')
+const convertedValue = document.getElementById('converted')
 
 convertNum.addEventListener('click', () => {
   const num1 = parseInt(inputNum.value, 10)
