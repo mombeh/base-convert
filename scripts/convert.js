@@ -13,6 +13,6 @@ convertNum.addEventListener('click', () => {
   }
 
   const clickNumber = num1.toString(num2)
-  restartDisplay.textContent = `From ${num1} To ${num2} is ${clickNumber}`
-  restartDisplay.style.color = 'blue'
+  convertedValue.textContent = `From ${num1} To ${num2} is ${clickNumber}`
+  convertedValue.style.color = 'blue'
 })
